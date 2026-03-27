@@ -1,0 +1,22 @@
+{
+  "name": "devtree",
+  "version": "1.0.0",
+  "description": "This project will contain Linktree using express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliodev-code/DevTree.git"
+  },
+  "author": "juliodev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juliodev-code/DevTree/issues"
+  },
+  "homepage": "https://github.com/juliodev-code/DevTree#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
