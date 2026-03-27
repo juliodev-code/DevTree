@@ -1,10 +1,11 @@
 {
   "name": "devtree",
+  "type": "module",
   "version": "1.0.0",
   "description": "This project will contain Linktree using express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/juliodev-code/DevTree#readme",
   "dependencies": {
     "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }
