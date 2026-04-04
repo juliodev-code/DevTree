@@ -2,17 +2,10 @@ import { Router } from 'express'
 
 const router = Router()
 //Routing
-router.get("/", (req, res) => {
-    res.send("Hello world from express");
-})
-
-router.get("/nosotros", (req, res) => {
-    res.send("Hello world from nosotros");
+router.post("/auth/register", (req, res) => {
+    console.log(req.body)
 })
 
 
-router.get("/blog", (req, res) => {
-    res.send("Hello world from blog");
-})
 
 export default router
